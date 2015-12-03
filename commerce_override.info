@@ -1,0 +1,6 @@
+name = Commerce Override
+description = Alters some texts during the commerce checkout process
+package = Commerce (contrib)
+dependencies[] = commerce
+dependencies[] = commerce_payment
+core = 7.x

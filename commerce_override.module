@@ -1,0 +1,7 @@
+<?php
+
+function commerce_override_commerce_checkout_page_info_alter(&$pages)  {
+	if(!empty($pages['review'])) {
+		$pages['review']['submit_value'] = t('Finish with purchase');
+	}
+}
