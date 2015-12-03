@@ -1,5 +1,5 @@
 name = Commerce Override
-description = Alters some texts during the commerce checkout process
+description = Alters some texts during the commerce checkout process. Get the sources at https://github.com/keawe-software/commerce_override
 package = Commerce (contrib)
 dependencies[] = commerce
 dependencies[] = commerce_payment
